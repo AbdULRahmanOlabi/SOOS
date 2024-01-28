@@ -50,10 +50,47 @@
           <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
               <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-              <li><a class="nav-link scrollto" href="#about">About</a></li>
-              <li><a class="nav-link scrollto" href="#services">Our Programs</a></li>
-              <li><a class="nav-link scrollto " href="#gallery">News Letters</a></li>
-              <li><a class="nav-link scrollto" href="#LMS&SMS">Student Login</a></li>
+              <!-- <li><a class="nav-link scrollto" href="#about">About</a></li> -->
+              <li class="dropdown has-dropdown" style="float: left;"><a class="nav-link scrollto"
+                  href="#about">About</a>
+                <ul class="dd-box-shadow">
+                  <li><a href="#"><iconify-icon icon="mdi:company" width="1.2rem"
+                        height="1.2rem"></iconify-icon>OverView</a></li>
+                  <li><a href="#"><iconify-icon icon="mingcute:task-fill" width="1.2rem"
+                        height="1.2rem"></iconify-icon>Mission</a></li>
+                  <li><a href="Team.html"><iconify-icon icon="fluent:people-team-20-filled" width="1.2rem"
+                        height="1.2rem"></iconify-icon>Our Team</a></li>
+                </ul>
+              </li>
+              <!-- <li><a class="nav-link scrollto" href="#services">Our Programs</a></li> -->
+              <li class="dropdown has-dropdown" style="float: left;"><a class="nav-link scrollto"
+                  href="#services">Academics</a>
+                <ul class="dd-box-shadow">
+                  <li><a href="#services"><iconify-icon icon="mdi:company" width="1.2rem"
+                        height="1.2rem"></iconify-icon>OverView</a></li>
+                  <li><a href="#services"><iconify-icon icon="maki:school" width="1.2rem"
+                        height="1.2rem"></iconify-icon>Primary</a></li>
+                  <li><a href="#services"><iconify-icon icon="game-icons:school-bag" width="1.2rem"
+                        height="1.2rem"></iconify-icon>Secondary</a></li>
+                  <li><a href="#services"><iconify-icon icon="mdi:school" width="1.2rem"
+                        height="1.2rem"></iconify-icon>High-School</a></li>
+                </ul>
+              </li>
+              <!-- <li><a class="nav-link scrollto " href="#gallery">Admission</a></li> -->
+              <li class="dropdown has-dropdown" style="float: left;"><a class="nav-link scrollto"
+                href="#gallery">Admission</a>
+              <ul class="dd-box-shadow">
+                <li><a href="#gallery"><iconify-icon icon="mdi:company" width="1.2rem"
+                      height="1.2rem"></iconify-icon>OverView</a></li>
+                <li><a href="#gallery"><iconify-icon icon="maki:school" width="1.2rem"
+                      height="1.2rem"></iconify-icon>How To Apply</a></li>
+                <li><a href="#gallery"><iconify-icon icon="game-icons:school-bag" width="1.2rem"
+                      height="1.2rem"></iconify-icon>Tuition Fees</a></li>
+                <li><a href="#gallery"><iconify-icon icon="mdi:school" width="1.2rem"
+                      height="1.2rem"></iconify-icon>Dates and Deadlines</a></li>
+              </ul>
+            </li>
+              <li><a class="nav-link scrollto" href="http://soos.cloud:8080/">Student Login</a></li>
               <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
               <li class="dropdown has-dropdown" style="float: left;"><a style="float: left;" href=""><i
                     class="bi bi-translate"></i></a>
@@ -69,7 +106,7 @@
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
 
-          <a href="#about" class="get-started-btn scrollto">Enroll Here</a>
+          <a href="#about" class="get-started-btn scrollto">Sign Up</a>
         </div>
       </div>
 
@@ -143,16 +180,21 @@
 
         <div class="section-title">
           <h2>Our Programs</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <p>Curriculum Category (A): This is an approved curriculum by the Syrian Ministry of Education designed to
+            compensate for the age and educational gaps of students in basic education, covering students from the first
+            grade of elementary school to the second grade of middle school, within the age range of 8 to 15 years. It
+            aims to prepare students for legal and effective integration into the general curriculum. Students cover the
+            material for two grades in one year, spread across four levels as follows: Level 1: Includes the first and
+            second grades. Level 2: Includes the third and fourth grades. Level 3: Includes the fifth and sixth grades.
+            Level 4: Includes the seventh and eighth grades. Students are assessed with a basic skills level assessment,
+            after which they are placed at the appropriate level. The assessment is done electronically.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Grade A Curriculum</a></h4>
+              <h4><a href="">Primary</a></h4>
               <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
@@ -160,7 +202,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Grade B Curriculum</a></h4>
+              <h4><a href="">Secondary</a></h4>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
             </div>
           </div>
@@ -168,12 +210,12 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Arabic Language For Foreigners</a></h4>
+              <h4><a href="">High-School</a></h4>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
               <h4><a href="">English Language</a></h4>
@@ -195,7 +237,7 @@
               <h4><a href="">Programming Courses</a></h4>
               <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -222,34 +264,59 @@
     </section><!-- End Cta Section -->
 
     <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
+    <section id="features" class="features pricing">
       <div class="container">
+
+        <div class="section-title">
+          <h2>Tuition Fees</h2>
+        </div>
 
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1">
             <div class="icon-box mt-5 mt-lg-0">
               <i class="bx bx-receipt"></i>
-              <h4>Est labore ad</h4>
-              <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              <h4>Pre-School</h4>
+              <p>$500</p>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-cube-alt"></i>
-              <h4>Harum esse qui</h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              <h4>1st Grade To 8th Grade</h4>
+              <p>$700</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-cube-alt"></i>
+              <h4>9th Grade To 11th Grade</h4>
+              <p>$700</p>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-images"></i>
-              <h4>Aut occaecati</h4>
-              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+              <h4>12th Grade Literary and Scientific</h4>
+              <p>$1200</p>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-shield"></i>
-              <h4>Beatae veritatis</h4>
-              <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+              <h4>B-Curriculum</h4>
+              <p>$1000</p>
             </div>
           </div>
-          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/features.jpg");'>
+
+          <div class="image col-lg-6 order-1 order-lg-2">
+            <div class="box">
+              <h3>Requirements</h3>
+              <h4>Here are the required documents for student registration</h4>
+              <ul>
+                <li>If the student is in high school and possesses a 9th-grade certificate issued in Syria or an equivalent, provisional acceptance may be granted until all required documents for registration, or the equivalence of the basic education certificate is completed later</li>
+                <li>Proof of identity (a copy of the passport, family statement, or birth certificate)</li>
+                <li>The most recent academic certificate or transcript (if available)</li>
+                <li>Enhanced Student Collaboration and Communication</li>
+                <li>A personal photo of the student</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="http://soos.cloud/VSchool/" class="btn-buy">Apply Now</a>
+              </div>
+            </div>
           </div>
+
         </div>
 
       </div>
@@ -359,13 +426,13 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Gallery</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          <h2>News and Events</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
             consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+            in iste officiis commodi quidem hic quas.</p> -->
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
@@ -374,7 +441,7 @@
               <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
-        </div>
+        </div> -->
 
         <div class="row portfolio-container">
 
@@ -483,7 +550,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="LMS&SMS" class="pricing">
+    <!-- <section id="LMS&SMS" class="pricing">
       <div class="container">
 
         <div class="section-title">
@@ -510,9 +577,9 @@
                 <a href="http://soos.cloud/VSchool/" class="btn-buy">LMS Login</a>
               </div>
             </div>
-          </div>
+          </div> -->
 
-          <!-- <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+    <!-- <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
             <div class="box recommended">
               <span class="recommended-badge">Recommended</span>
               <h3>Business</h3>
@@ -530,7 +597,7 @@
             </div>
           </div> -->
 
-          <div class="col-lg-6 col-md-6 mt-4 mt-lg-0">
+    <!-- <div class="col-lg-6 col-md-6 mt-4 mt-lg-0">
             <div class="box">
               <h3>School Management System</h3>
               <h4>Syrian Oasis Online School Provides The Ability To Control The School Management System</h4>
@@ -550,7 +617,8 @@
         </div>
 
       </div>
-    </section><!-- End Pricing Section -->
+    </section>-->
+    <!-- End Pricing Section -->
 
     <!-- ======= Faq Section ======= -->
     <section id="faq" class="faq">
